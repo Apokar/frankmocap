@@ -11,7 +11,11 @@
   conda activate venv_frankmocap
 
   # Install ffmpeg
-  sudo apt-get install ffmpeg libosmesa6-dev
+  sudo apt-get install ffmpeg 
+  apt-get install libosmesa6-dev \
+  build-essential \
+  libgl1-mesa-dev \
+  libglu1-mesa-dev \
 
   # Install cuda 
   # Choose versions based on your system. For example:
